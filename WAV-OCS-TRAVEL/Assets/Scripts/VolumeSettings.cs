@@ -7,41 +7,41 @@ using UnityEngine.UI;
 public class VolumeSettings : MonoBehaviour
 {
     [SerializeField] private AudioMixer myMixer;
-    [SerializeField] private Slider AirportNoise;
-    [SerializeField] private Slider BingBong;
+    [SerializeField] private Slider musicSlider;
+    [SerializeField] private Slider BingBongSlider;
 
     private void Start()
     {
-        if (PlayerPrefs.HasKey("AiprtNoiseVolume"))
+        if (PlayerPrefs.HasKey("musicVolume"))
         {
             LoadVolume();
         }
         else
         {
-            SetAirportNoiseVolume();
+            SetMusicVolume();
             SetBingBongVolume();
         }
-
-
+        
+        
     }
-    public void SetAirportNoiseVolume()
+    public void SetMusicVolume ()
     {
-        float volume = AirportNoise.value;
+        float volume = musicSlider.value;
         myMixer.SetFloat("AirportNoise", Mathf.Log10(volume) * 20);
-        PlayerPrefs.SetFloat("AirportNoiseVolume", volume);
+        PlayerPrefs.SetFloat("musicVolume", volume);
     }
     public void SetBingBongVolume()
     {
-        float volume = BingBong.value;
-        myMixer.SetFloat("BingBong", Mathf.Log10(volume) * 20);
+        float volume = BingBongSlider.value;
+        myMixer.SetFloat("bingbong", Mathf.Log10(volume) * 20);
         PlayerPrefs.SetFloat("BingBongVolume", volume);
-    }
-
-    private void LoadVolume()
+    }   
+        
+        private void LoadVolume()
     {
-        AirportNoise.value = PlayerPrefs.GetFloat("AirportNoiseVolume");
-        BingBong.value = PlayerPrefs.GetFloat("BingBongVolume");
+        musicSlider.value = PlayerPrefs.GetFloat("musicVolume");
+        BingBongSlider.value = PlayerPrefs.GetFloat("BingBongVolume");
 
-        SetAirportNoiseVolume();
+        SetMusicVolume();
     }
 }
