@@ -5,36 +5,40 @@ using UnityEngine.SceneManagement;
 
 public class LevelComplete1 : MonoBehaviour
 {
-    public int nextSceneLoad;
 
-    // Start is called before the first frame update
-    void Start()
+    public void OnLevelComplete()
     {
-        nextSceneLoad = SceneManager.GetActiveScene().buildIndex + 1;
+        UnlockNewLevel();
+        SceneManager.LoadScene("LevelSelectionMenu");
+      
     }
 
-    public void OnTriggerEnter(Collider other)
+
+    void UnlockNewLevel()
     {
-        if (other.gameObject.tag == "Player")
+        if (SceneManager.GetActiveScene().buildIndex >= PlayerPrefs.GetInt ("ReachedIndex"))
         {
-            if (SceneManager.GetActiveScene().buildIndex == 21 ) /* < Change this int value to whatever your
-                                                                   last level build index is on your
-                                                                   build settings */
-            {
-                Debug.Log("You Completed ALL Levels");
+          PlayerPrefs.SetInt("ReachedIndex", SceneManager.GetActiveScene().buildIndex +1);
+          PlayerPrefs.SetInt("UnlockedLevel", PlayerPrefs.GetInt("UnlockedLevel", 1) + 1);
+          PlayerPrefs.Save();
+        }
+    }
+    public void Quit()
+    {
+        {
+            UnlockNewLevel();
+            SceneManager.LoadScene("LevelSelectionMenu");
 
-                //Show Win Screen or Somethin.
-            }
-            else
-            {
-                //Move to next level
-                SceneManager.LoadScene(nextSceneLoad);
+        }
 
-                //Setting Int for Index
-                if (nextSceneLoad > PlayerPrefs.GetInt("levelAt"))
-                {
-                    PlayerPrefs.SetInt("levelAt", nextSceneLoad);
-                }
+
+        void UnlockNewLevel()
+        {
+            if (SceneManager.GetActiveScene().buildIndex >= PlayerPrefs.GetInt("ReachedIndex"))
+            {
+                PlayerPrefs.SetInt("ReachedIndex", SceneManager.GetActiveScene().buildIndex + 1);
+                PlayerPrefs.SetInt("UnlockedLevel", PlayerPrefs.GetInt("UnlockedLevel", 1) + 1);
+                PlayerPrefs.Save();
             }
         }
     }
