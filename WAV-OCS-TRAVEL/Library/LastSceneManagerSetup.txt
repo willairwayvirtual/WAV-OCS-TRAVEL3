@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/All_DECKS/DECK_1.unity
+- path: Assets/Scenes/START MENU.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
