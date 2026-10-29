@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class menu3 : MonoBehaviour
 {
-    public void playgame()
+    public void Playgame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
 
