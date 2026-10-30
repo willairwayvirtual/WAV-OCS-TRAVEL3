@@ -1023,9 +1023,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 691480550}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46b6587043631ca4cbd1d5c7941c04dc, type: 3}
+  m_Script: {fileID: 11500000, guid: 960d81745bacce3469f1b4283670ba87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  restartDelay: 0
+  completeLevelUI: {fileID: 818344142}
 --- !u!4 &691480552
 Transform:
   m_ObjectHideFlags: 0
@@ -2913,9 +2915,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1554937822}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0443b7f0c1374564194fb682faeed233, type: 3}
+  m_Script: {fileID: 11500000, guid: 07bca0daf5b79b54cbacd9caf4a6f2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  offset: {x: -0.1, y: 5.4, z: -52.7}
 --- !u!114 &1554937833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3650,7 +3654,7 @@ Transform:
   m_GameObject: {fileID: 1932193395}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1, y: 2.5, z: -52.7}
+  m_LocalPosition: {x: -0.1, y: 5.4, z: -52.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3668,7 +3672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07bca0daf5b79b54cbacd9caf4a6f2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1554937826}
   offset: {x: 0, y: 0, z: 0}
 --- !u!1 &2003417018
 GameObject:
