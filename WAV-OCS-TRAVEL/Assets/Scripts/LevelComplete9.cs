@@ -8,7 +8,7 @@ public class LevelComplete9 : MonoBehaviour
 
     public void OnLevelComplete()
     {
-        
+
         SceneManager.LoadScene("Credit scene");
     }
     public void Quit()

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class endtitle : MonoBehaviour
+public class endtitle2 : MonoBehaviour
 {
     public void LoadNextLevel()
     {
@@ -11,4 +11,3 @@ public class endtitle : MonoBehaviour
     }
 
 }
-
