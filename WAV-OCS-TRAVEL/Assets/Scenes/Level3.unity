@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.30692166, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1099,10 +1099,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 612857904}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 593bf5de878ed5b4699c1012ea50e95c, type: 3}
+  m_Script: {fileID: 11500000, guid: 34d5b0436e7875e4594a1d24cae04f85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 691480551}
+  gameManager: {fileID: 0}
 --- !u!65 &612857906
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3802,10 +3802,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1554937822}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0443b7f0c1374564194fb682faeed233, type: 3}
+  m_Script: {fileID: 11500000, guid: 07bca0daf5b79b54cbacd9caf4a6f2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1554937826}
+  player: {fileID: 0}
   offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1554937833
 MonoBehaviour:
@@ -4809,7 +4809,7 @@ Transform:
   m_GameObject: {fileID: 1932193395}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1, y: 2.5, z: -52.7}
+  m_LocalPosition: {x: -0.1, y: 5.3, z: -52.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4824,11 +4824,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1932193395}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0443b7f0c1374564194fb682faeed233, type: 3}
+  m_Script: {fileID: 11500000, guid: 07bca0daf5b79b54cbacd9caf4a6f2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1554937826}
-  offset: {x: 0, y: 3, z: -5}
+  player: {fileID: 0}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!1 &1950756651 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5514432056615486092, guid: 179aa15669fc7204586e1040fd75137d, type: 3}
