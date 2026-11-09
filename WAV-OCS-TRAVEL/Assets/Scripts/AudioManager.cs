@@ -6,11 +6,10 @@ public class AudioManager : MonoBehaviour
 {
     [Header("------ Audio Source -----")]
     [SerializeField] AudioSource musicSource;
-    [SerializeField] AudioSource SFXSource;
     [Header("------ Audio Clip ------")]
 
-    public AudioClip airport;
-    public AudioClip bingbong;
+    public AudioClip wavocstravel3;
+    
 
     private void Awake()
     {
@@ -18,7 +17,8 @@ public class AudioManager : MonoBehaviour
        }
     private void Start()
     {
-        musicSource.clip = airport ;
+        musicSource.clip = wavocstravel3;
         musicSource.Play();
     }
+ 
 }
