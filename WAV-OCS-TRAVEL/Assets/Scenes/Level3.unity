@@ -4767,7 +4767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07bca0daf5b79b54cbacd9caf4a6f2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1554937826}
   offset: {x: 0, y: 0, z: 0}
 --- !u!81 &1932193400
 AudioListener:
