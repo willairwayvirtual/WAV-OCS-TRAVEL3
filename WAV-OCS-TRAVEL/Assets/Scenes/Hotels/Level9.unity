@@ -4849,7 +4849,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 818344142}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59054c3c504297e49bbb650e3cc8fa71, type: 3}
+  m_Script: {fileID: 11500000, guid: dbbcbe709c1c4cf4183ecb8ed30d54c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &825650964
@@ -5062,7 +5062,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 818344147}
-        m_TargetAssemblyTypeName: LevelComplete9, Assembly-CSharp
+        m_TargetAssemblyTypeName: HotelsLevelComplete9, Assembly-CSharp
         m_MethodName: OnLevelComplete
         m_Mode: 1
         m_Arguments:
@@ -6356,7 +6356,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 818344147}
-        m_TargetAssemblyTypeName: LevelComplete9, Assembly-CSharp
+        m_TargetAssemblyTypeName: HotelsLevelComplete9, Assembly-CSharp
         m_MethodName: Quit
         m_Mode: 1
         m_Arguments:
