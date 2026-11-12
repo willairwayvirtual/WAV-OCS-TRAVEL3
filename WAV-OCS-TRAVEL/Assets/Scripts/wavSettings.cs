@@ -13,7 +13,7 @@ public class wavSettings : MonoBehaviour
         }
         public void back()
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
 
         }
     }

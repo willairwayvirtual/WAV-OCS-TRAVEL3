@@ -7,12 +7,12 @@ public class Menu2 : MonoBehaviour
 {
     public void Playgame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
      
     }
     public void Playgame1()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +2);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
     }
    
     public void Quit()

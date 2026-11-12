@@ -1575,7 +1575,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1560001757}
         m_TargetAssemblyTypeName: wavSettings, Assembly-CSharp
         m_MethodName: back
         m_Mode: 1
