@@ -9,7 +9,7 @@ public class HotelsLevelComplete1 : MonoBehaviour
     public void OnLevelComplete()
     {
         UnlockNewLevel();
-        SceneManager.LoadScene("LevelSelectionMenu");
+        SceneManager.LoadScene("HotelsLevelSelectionMenu");
 
     }
 
