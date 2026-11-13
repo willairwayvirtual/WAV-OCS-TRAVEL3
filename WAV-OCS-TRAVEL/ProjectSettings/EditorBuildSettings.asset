@@ -18,6 +18,33 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelSelectionMenu.unity
     guid: 80525250cc0dd4f48b3eb3a73428a94e
   - enabled: 1
+    path: Assets/Scenes/eglll/Level1.unity
+    guid: d8379187c7a5c994b806c81f792070c9
+  - enabled: 1
+    path: Assets/Scenes/eglll/Level2.unity
+    guid: 792fc1fb616756e49b61e80f1c76b5b6
+  - enabled: 1
+    path: Assets/Scenes/eglll/Level3.unity
+    guid: cd1d4a44467f045de83f0ac5c8fe8ae1
+  - enabled: 1
+    path: Assets/Scenes/eglll/Level4.unity
+    guid: 1aa30150c20566543854ae42eced059e
+  - enabled: 1
+    path: Assets/Scenes/eglll/Level5.unity
+    guid: ed16403ba3de917459d1218d098ab685
+  - enabled: 1
+    path: Assets/Scenes/eglll/Level6.unity
+    guid: 45b2f7cc0c65fb646a8f6468e36e7684
+  - enabled: 1
+    path: Assets/Scenes/eglll/Level7.unity
+    guid: 60941d32611f2614b8195ed1fe121dae
+  - enabled: 1
+    path: Assets/Scenes/eglll/Level8.unity
+    guid: 18ff680a1eb8e7847a0335b4289d2853
+  - enabled: 1
+    path: Assets/Scenes/eglll/Level9.unity
+    guid: 358ee7c3ca892874fb87767fc25c2ce4
+  - enabled: 1
     path: Assets/Scenes/HotelsLevelSelectionMenu.unity
     guid: 7472aa003d581e644b11b9b70239cfe7
   m_configObjects: {}

@@ -1568,8 +1568,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46b6587043631ca4cbd1d5c7941c04dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  restartDelay: 1
-  completeLevelUI: {fileID: 818344142}
 --- !u!4 &691480552
 Transform:
   m_ObjectHideFlags: 0
@@ -4131,8 +4129,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0443b7f0c1374564194fb682faeed233, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1554937826}
-  offset: {x: 0, y: 0, z: 0}
 --- !u!114 &1554937832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5295,7 +5291,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1554937826}
-  offset: {x: 0, y: 0, z: 0}
+  offset: {x: 0, y: 2, z: 0}
 --- !u!81 &1932193400
 AudioListener:
   m_ObjectHideFlags: 0
