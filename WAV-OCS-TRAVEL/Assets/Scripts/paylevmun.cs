@@ -6,7 +6,10 @@ using UnityEngine.UI;
 
 public class PayLevmun : MonoBehaviour
 {
-   
+    public levelobjects[] levelobjects;
+
+    public static int currlevel;
+    public static int unlockedlevels;
     public Button[] buttons;
     public GameObject levelButtons;
     
@@ -70,6 +73,15 @@ public class PayLevmun : MonoBehaviour
         PlayerPrefs.DeleteAll();
         SceneManager.LoadScene("Start Menu");
     }
-
-
+    void start()
+    {
+        unlockedlevels = playerprefs.getint("unlockedlevels", 0);
+        for (int i = 0;i < levelobjects.length;i++)
+        {
+            if(unlockedlevels >=i)
+            {
+                levelobjects[i].levelbutton.interactable = true;
+            }
+        }
+    }
 }

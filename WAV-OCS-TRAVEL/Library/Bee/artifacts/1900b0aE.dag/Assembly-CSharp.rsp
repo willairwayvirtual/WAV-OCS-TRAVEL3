@@ -371,6 +371,7 @@
 "Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs"
 "Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs"
 "Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
+"Assets/LevelObjects.cs"
 "Assets/Scripts/AudioManager.cs"
 "Assets/Scripts/Credit22.cs"
 "Assets/Scripts/end title2.cs"

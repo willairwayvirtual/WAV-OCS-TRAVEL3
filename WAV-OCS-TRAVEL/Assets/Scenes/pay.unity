@@ -211,7 +211,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb3f94019c8e1be4f941666a615e7154, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttons: []
+  buttons:
+  - {fileID: 1711582858}
   levelButtons: {fileID: 1405486572}
 --- !u!1 &121787354
 GameObject:
@@ -587,6 +588,7 @@ GameObject:
   - component: {fileID: 943660445}
   - component: {fileID: 943660444}
   - component: {fileID: 943660443}
+  - component: {fileID: 943660446}
   m_Layer: 5
   m_Name: Levels 10 to 20
   m_TagString: Untagged
@@ -658,7 +660,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 943660444}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 91502893}
+        m_TargetAssemblyTypeName: PayLevmun, Assembly-CSharp
+        m_MethodName: OpenLevel
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 13
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &943660444
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -697,6 +711,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 943660441}
   m_CullTransparentMesh: 1
+--- !u!114 &943660446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943660441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dfff2fc4ae5a6c45b7e1343ddfea2bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelbutton: {fileID: 943660443}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1365,7 +1392,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 56.60315, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1542,7 +1569,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 4
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

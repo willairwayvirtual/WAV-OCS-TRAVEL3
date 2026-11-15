@@ -56,7 +56,7 @@ public class HotelsLevmun : MonoBehaviour
     }
     public void Main()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 13);
 
     }
 
