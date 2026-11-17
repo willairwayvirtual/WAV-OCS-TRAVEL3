@@ -7,13 +7,13 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/START MENU.unity
-    guid: 307bae10e714730428838cfd31f0eb2d
+    guid: 4c3f8ec4c27a7b94b8741ccb77b01011
   - enabled: 1
     path: Assets/Scenes/Game_Options_Menu.unity
     guid: 34269548555434c4db37e859e11b369d
   - enabled: 1
-    path: Assets/Scenes/pay.unity
-    guid: 0c89f265ddcedd542bdd22f34e03b7ba
+    path: Assets/Scenes/Player Selection Menu.unity
+    guid: 59bd0f8ec2e74454bbcc774789b8fdc8
   - enabled: 1
     path: Assets/Scenes/eglll/Level0.unity
     guid: 80525250cc0dd4f48b3eb3a73428a94e
