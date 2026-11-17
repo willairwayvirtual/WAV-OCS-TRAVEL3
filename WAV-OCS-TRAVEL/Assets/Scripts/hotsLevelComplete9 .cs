@@ -10,7 +10,7 @@ public class HotelsLevelComplete9 : MonoBehaviour
     {
 
         UnlockNewLevel();
-        SceneManager.LoadScene("pay");
+        SceneManager.LoadScene("Player Selection Menu");
     }
     public void Quit()
     {

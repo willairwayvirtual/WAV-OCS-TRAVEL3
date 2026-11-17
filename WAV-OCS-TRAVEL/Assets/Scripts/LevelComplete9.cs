@@ -9,13 +9,13 @@ public class LevelComplete9 : MonoBehaviour
     public void OnLevelComplete()
     {
 
-        UnlockNewLevel();
-        SceneManager.LoadScene("pay");
+        SceneManager.LoadScene("Credit scene");
     }
     public void Quit()
     {
-        Debug.Log("quit?");
-        Application.Quit();
+        UnlockNewLevel();
+        SceneManager.LoadScene("Player Selection Menu");
+
     }
 
 
