@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Player Selection Menu.unity
+- path: Assets/Scenes/eglll/Level9.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
