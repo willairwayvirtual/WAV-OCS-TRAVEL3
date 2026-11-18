@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 44
+  controlID: 110
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 45
+  controlID: 53
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 46
+  controlID: 54
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -321,7 +321,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes/eglll
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -329,16 +329,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes/eglll
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\VisStudioProj\github\WAV-OCS-TRAVEL3\WAV-OCS-TRAVEL
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 22620000
-    m_LastClickedID: 25122
-    m_ExpandedIDs: 00000000f85b0000165c000000ca9a3bffffff7f
+    m_SelectedIDs: dc600000
+    m_LastClickedID: 24796
+    m_ExpandedIDs: 00000000b8600000dc60000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f85b0000
+    m_ExpandedIDs: 00000000b8600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -505,10 +505,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 120}
-      m_SelectedIDs: 4ebaffff
-      m_LastClickedID: -17842
-      m_ExpandedIDs: 4ebaffffc8baffff48bdffff56bdffffb6c0ffff38c1ffffeac3ffff1cc4ffff10c6ffff62c6ffff64c8ffffd6c8ffffdacaffff0ccbffffbecdffffd8cdffff86d9ffffd8d9ffff40ddffffeaddffffe2e4ffff2ee5ffff2ee7ffff76e9ffff34f3ffff2cfbffff2e5b00003e5b00006c5b0000d4640000ea6400006c6500003a6600001a7e0000767e0000b888000016890000c48c0000f28c0000209400007c94000030980000e29800003a99000072a30000e0a3000050a60000cca600003ea700006aaa0000eaaa000050ae0000d2ae000054b20000d6b2000080b600000cb7000072c000009ec1000040ca00008ccb0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: a8a30000
+      m_LastClickedID: 41896
+      m_ExpandedIDs: 62cffffffed7ffffccd8fffff4ddffff7edeffff9ee2fffff8e2ffff8ce6fffff6e6ffff6cecffffc6ecffff22f0ffff70f0fffff2f1ffffa8f2ffff58f4ffffd6f4ffffbef8ffffd8f8ffff2cfbffff146200006c620000c4650000326600002a6900009c690000d86c0000586d0000be70000040710000c274000044750000f27800007e790000d68000000282000040890000a68a0000fa8b00009ea30000a8a30000cca30000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
